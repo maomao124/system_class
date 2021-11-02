@@ -76,7 +76,7 @@ public class test
         try
         {
             InputStreamReader in = new InputStreamReader(System.in, StandardCharsets.UTF_8);
-            c = System.in.read();
+            c =in.read();
             while (c != '\n')
             {
                 System.out.print((char) c);
